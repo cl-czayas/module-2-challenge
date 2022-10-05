@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(255, 247, 236);
+    padding: 20px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 46px;
+    padding-left: 10px;
+}
+
+.nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 25px;
+    float: right;
+
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a { 
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
