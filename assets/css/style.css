@@ -37,3 +37,51 @@ a {
     text-decoration: none;
     font-size: 20px;
 }
+
+.main {
+    display:flex;
+    border:solid 5px;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.main div {
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main div h2 {
+    float: left;
+    margin: 0 1.5%;
+}
+
+.main p {
+    text-align: center;    
+    float: right;
+    margin-left: 25px;
+    border-left: solid 5px;
+    padding-left:20px;
+}
+
+#contact-me {
+    width:80%;
+    height:20px;
+    display:flex;
+    align-items: top;
+    justify-items:center;
+    
+}
+
+#contact-me ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+}
+
+#contact-me ul li {
+    margin-left:25px;
+    margin-right:25px;
+}
