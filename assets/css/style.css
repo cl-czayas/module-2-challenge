@@ -42,7 +42,6 @@ a {
 
 .main {
     display:flex;
-    border:solid 5px;
     flex-direction: column;
     max-width: 70%;
     margin: auto;
@@ -61,10 +60,13 @@ section {
     flex-wrap: wrap;
     position: relative;
     width: 100%;
+
 }
 
 .images div:not(:first-child) {
     width:49%;
+    margin:auto;
+    
 }
 
 .info {
@@ -90,7 +92,10 @@ section {
 
 img {
     width: 100%;
-    
+}
+
+#shorter{
+    height:100px;
 }
 
 .main-img {
@@ -115,7 +120,7 @@ img {
 
 h2 {
     margin: 0 1.5%;
-    font-size: 48px;
+    font-size: 40px;
     text-align: right;
 }
 
@@ -124,6 +129,7 @@ h2 {
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .info ul li {
