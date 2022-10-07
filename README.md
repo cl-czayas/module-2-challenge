@@ -12,7 +12,7 @@ This website was created in order to showcase the work of its creator, and facil
 
 After accessing the webpage, users can use the navigation links on the top right of the page to head directly to the section of content they are interested in.
 
-![alt text](assets/images/--)
+![alt text](./assets/images/Screenshot.png)
 
 ## Credits
 
